@@ -11,11 +11,17 @@ Commited	- archivos confirmados que forman parte de una versión
 
 git init // inicia un repositorio git
 git status // muestra el estado del repositorio (si hay archivos no add, staging o clean)
+git status -s // muestra el estado del repositorio a detalle
+	 M - archivos modificados
+	MM - 
+	A - archivos preparados
+	?? - archivos no rastreados
 git add nombre_archivo // añade el archivo nombrado a "staging" listo para ser commit
 git add . // añade todos los archivos no add que estén en el repositorio pasan a estado stagging
 git commit -m "comentario" // confirma los archivos staging al repositorio -m añade comentarios
 
 git reset HEAD nombre_archivo // cambia el estado de un archivo staging a modified
 git checkout -- nombre_archivo // descarta todos los cambios y vuelve a la version anterior commit (debe estar en estado modified)
+
 
 
