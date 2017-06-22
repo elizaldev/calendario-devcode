@@ -1,0 +1,6 @@
+
+git init // inicia un repositorio git
+git status // muestra el estado del repositorio (si hay archivos no add, staging o clean)
+git add nombre_archivo // añade el archivo nombrado a "staging" listo para ser commit
+git add . // añade todos los archivos no add que estén en el repositorio pasan a estado stagging
+git commit -m // confirma los archivos stagging
