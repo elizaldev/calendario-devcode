@@ -52,3 +52,5 @@ git remote add origin https://github.com/nmbre_usuario/repositorio.git // añade
 git push -u origin master // se envían los archivos locales de la rama mencionada "master" a github
 
 git clone https://github.com/nmbre_usuario/repositorio.git // permite clonar un repositorio desde github a local
+
+git pull origin master // descarga los cambios desde github a local
