@@ -43,3 +43,10 @@ git checkout nombre_rama // cambia la rama en la que se está trabajando
 
 git merge nombre_rama // combina o fusiona a la rama desde donde estoy la rama mencionada
 
+
+
+GITHUB
+
+git remote add origin https://github.com/nmbre_usuario/repositorio // añade a github un repositorio previamente creado
+
+git push -u origin master // se envían los archivos locales de la rama mencionada "master" a github
