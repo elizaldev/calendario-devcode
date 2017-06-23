@@ -47,6 +47,8 @@ git merge nombre_rama // combina o fusiona a la rama desde donde estoy la rama m
 
 GITHUB
 
-git remote add origin https://github.com/nmbre_usuario/repositorio // añade a github un repositorio previamente creado
+git remote add origin https://github.com/nmbre_usuario/repositorio.git // añade a github un repositorio previamente creado
 
 git push -u origin master // se envían los archivos locales de la rama mencionada "master" a github
+
+git clone https://github.com/nmbre_usuario/repositorio.git // permite clonar un repositorio desde github a local
