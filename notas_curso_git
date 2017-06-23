@@ -21,7 +21,17 @@ git add . // añade todos los archivos no add que estén en el repositorio pasan
 git commit -m "comentario" // confirma los archivos staging al repositorio -m añade comentarios
 
 git reset HEAD nombre_archivo // cambia el estado de un archivo staging a modified
-git checkout -- nombre_archivo // descarta todos los cambios y vuelve a la version anterior commit (debe estar en estado modified)
+git checkout -- nombre_archivo // descarta todos los cambios y vuelve a la version anterior commit (debe estar en estado modified), también sirve para restaurar un archivo eliminado.
+
+git rm nombre_archivo // elimina un archivo y pasa directamente al estado staging listo para ser confirmada la eliminacion
+
+git log // muestra el registro de nuestro repositorio a través del tiempo, es decir los commits.
+
+git checkout clave_commit // nos regresa a la version (commit) especificada
+
+git checkout -b nombre_nuevo // nos genera un nuevo nombre de version distinto al principal 
+
+git branch // muestra las branch (ramas) de nuestro proyecto
 
 
 
