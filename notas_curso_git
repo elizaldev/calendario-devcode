@@ -33,5 +33,7 @@ git checkout -b nombre_nuevo // nos genera un nuevo nombre de version distinto a
 
 git branch // muestra las branch (ramas) de nuestro proyecto
 
+git branch -d nombre_rama // elimina una rama
 
+git branch -D nombre_rama // elimina una rama sin preguntar
 
