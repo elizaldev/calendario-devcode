@@ -33,14 +33,11 @@ git checkout -b nombre_nuevo // nos genera una nueva rama partiendo de la princi
 
 git branch // muestra las branch (ramas) de nuestro proyecto
 
-<<<<<<< HEAD
 git checkout nombre_rama //
 
-=======
-git branch -d nombre_rama // elimina una rama
->>>>>>> fondo-gris
+git branch -d nombre_rama // elimina una rama combinada previamente
 
-git branch -D nombre_rama // elimina una rama sin preguntar
+git branch -D nombre_rama // elimina una rama sin combinar
 
 git checkout nombre_rama // cambia la rama en la que se está trabajando
 
