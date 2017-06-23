@@ -29,9 +29,11 @@ git log // muestra el registro de nuestro repositorio a través del tiempo, es d
 
 git checkout clave_commit // nos regresa a la version (commit) especificada
 
-git checkout -b nombre_nuevo // nos genera un nuevo nombre de version distinto al principal 
+git checkout -b nombre_nuevo // nos genera una nueva rama partiendo de la principal 
 
 git branch // muestra las branch (ramas) de nuestro proyecto
+
+git checkout nombre_rama //
 
 
 
